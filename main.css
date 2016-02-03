@@ -6791,3 +6791,10 @@ body {
   border-radius: 0;
   color: white;
 }
+.body-h1 {
+  font-size: 28;
+  font-weigth: 400;
+  color: #80ff80;
+  text-shadow: 2;
+  line-height: 2;
+}
