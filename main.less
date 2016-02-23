@@ -61,7 +61,7 @@ Monaco,
 Consolas,
 "Courier New",
 monospace;
-@font-family-base : Raleway;
+@font-family-base : "Open Sans";
 @font-size-base : 14px;
 @font-size-large : ceil((@font-size-base * 1.25)); // ~18px
 @font-size-small : ceil((@font-size-base * 0.85)); // ~12px
@@ -76,7 +76,7 @@ monospace;
 //** Computed "line-height" (`font-size` * `line-height`) for use with `margin`, `padding`, etc.
 @line-height-computed : floor((@font-size-base * @line-height-base)); // ~20px
 //** By default, this inherits from the `<body>`.
-@headings-font-family : Vollkorn;
+@headings-font-family : "Kaushan Script";
 @headings-font-weight : 500;
 @headings-line-height : 1.1;
 @headings-color : inherit;
@@ -755,4 +755,21 @@ monospace;
   color: #80ff80;
   text-shadow: 2;
   line-height: 2;
+}
+
+.navbar {
+  font-size: 1, 25em;
+  font-weigth: bold;
+  text-shadow: 2px;
+}
+
+.navbar-main {
+  font-size: 2em;
+  font-weigth: bold;
+  text-shadow: 2px;
+  padding: 5px;
+}
+
+.body-wishlist {
+  font-size: 1em;
 }

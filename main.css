@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Vollkorn|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Kaushan Script|Open Sans');
 /*!
  * Default theme for Pingendo 
  * Homepage: http://pingendo.com  
@@ -1086,7 +1086,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: Raleway;
+  font-family: "Open Sans";
   font-size: 14px;
   line-height: 1.42857143;
   color: #ffffff;
@@ -1188,7 +1188,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: Vollkorn;
+  font-family: "Kaushan Script";
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -5825,7 +5825,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: Raleway;
+  font-family: "Open Sans";
   font-size: 12px;
   font-weight: normal;
   line-height: 1.4;
@@ -5932,7 +5932,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: Raleway;
+  font-family: "Open Sans";
   font-size: 14px;
   font-weight: normal;
   line-height: 1.42857143;
@@ -6797,4 +6797,18 @@ body {
   color: #80ff80;
   text-shadow: 2;
   line-height: 2;
+}
+.navbar {
+  font-size: 1, 25em;
+  font-weigth: bold;
+  text-shadow: 2px;
+}
+.navbar-main {
+  font-size: 2em;
+  font-weigth: bold;
+  text-shadow: 2px;
+  padding: 5px;
+}
+.body-wishlist {
+  font-size: 1em;
 }
